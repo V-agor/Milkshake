@@ -10,7 +10,35 @@ Project Objectives:
 
 Technologies used:
 
-1.PostgresSQL-powerful and is an industry standard
+1.PostgresSQL
 
-2.
+2.QuickDBD
+
 3.
+
+Database Design:
+
+PostgresSQL is being used because it is powerful and is industry standard, it also allows for back-end implementation.
+
+<img width="735" height="591" alt="Screenshot (1109)" src="https://github.com/user-attachments/assets/083eeed6-6e2d-47c9-8ac7-a90553e20f34" />
+
+We will create a database named Milkshake_app and prepare our database schema
+
+Below is a schema of the diagram created in quickDBD:
+
+
+<img width="1920" height="1080" alt="Screenshot (1111)" src="https://github.com/user-attachments/assets/c81a7d5e-5ca8-4be0-b559-9370773a12ed" />
+
+Lets us explore the tables in depth:
+
+Users:
+
+Restaurants:
+
+Lookup tables:
+
+Config table:
+
+Orders and drinks:
+
+Audit logs:
