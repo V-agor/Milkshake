@@ -25,11 +25,9 @@ PostgresSQL is being used because it is powerful and is industry standard, it al
 
 Below is a schema created in quickDBD:
 
-We will create a database named Milkshake_app and prepare our database schema
-
 <img width="1920" height="919" alt="Screenshot (1112)" src="https://github.com/user-attachments/assets/03ed5bc1-07d7-41bf-a64a-9b5aadde4a8a" />
 
-
+We will create a database named Milkshake_app and prepare our database schema
 
 <img width="1920" height="1080" alt="Screenshot (1111)" src="https://github.com/user-attachments/assets/c81a7d5e-5ca8-4be0-b559-9370773a12ed" />
 
