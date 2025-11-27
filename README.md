@@ -33,14 +33,25 @@ We will create a database named Milkshake_app and prepare our database schema
 
 Lets us explore the tables in depth:
 
-Users:
+Users:Stores client and manager accounts.
 
-Restaurants:
+Restaurants:Required because the user must select where they pick up their order.
 
-Lookup tables:
+Lookup tables:these store values that managers can modify:
+flavour, toppings, consistency
 
-Config table:
+Config table:Stores dynamic system rules:
+max drinks (default 10), VAT %, tiered discount rules
 
 Orders and drinks:
 
-Audit logs:
+Audit logs: required to track:
+
+who changed VAT, who added a new flavour, who edited order values
+
+**Lookup Tables
+Our next task is to automate lookup data insertion
+
+Lookup tables contain fixed values that  users cannot modify, these are the values that appear on dropdowns.
+
+They need to be inserted because when the tables are first created they lack these values so they need to be entered.
