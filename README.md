@@ -64,14 +64,23 @@ I wwill share my full SQL so as to discuss some issues i cam across and how i re
 -- DROP ALL TABLES (reset database) allows database to reset each time 
 -- ===========================================
 DROP TABLE IF EXISTS audit_logs CASCADE;
+
 DROP TABLE IF EXISTS drinks CASCADE;
+
 DROP TABLE IF EXISTS orders CASCADE;
+
 DROP TABLE IF EXISTS config CASCADE;
+
 DROP TABLE IF EXISTS lookup_consistency CASCADE;
+
 DROP TABLE IF EXISTS lookup_toppings CASCADE;
+
 DROP TABLE IF EXISTS lookup_flavours CASCADE;
+
 DROP TABLE IF EXISTS restaurants CASCADE;
+
 DROP TABLE IF EXISTS users CASCADE;
+
 
 -- ================================
 --  USERS TABLE
