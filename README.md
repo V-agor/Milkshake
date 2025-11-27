@@ -29,6 +29,8 @@ Below is a schema created in quickDBD:
 
 We will create a database named Milkshake_app and prepare our database schema
 
+Note: A server environment needs to be setup in pgadmin before hand before scripts can be created
+
 <img width="1920" height="1080" alt="Screenshot (1111)" src="https://github.com/user-attachments/assets/c81a7d5e-5ca8-4be0-b559-9370773a12ed" />
 
 Lets us explore the tables in depth:
