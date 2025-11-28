@@ -293,6 +293,8 @@ INSERT INTO lookup_toppings (name, extra_price) VALUES
 ('Chocolate vermicelli', 7.00);
 
 
+
+
 INSERT INTO lookup_consistency (name, extra_price) VALUES
 
 ('Double Thick', 12.00),
@@ -313,6 +315,8 @@ INSERT INTO restaurants (name, address) VALUES
 ('Milky Shaky Pretoria', '78 CBD Lane, Pretoria Central');
 
 
+
+
 INSERT INTO config (config_key, config_value) VALUES
 
 ('discount_tier1_orders', '5'),
@@ -328,6 +332,8 @@ INSERT INTO config (config_key, config_value) VALUES
 ('discount_tier3_percentage', '15'),
 
 ('minimum_drinks_for_discount', '2');
+
+
 
 
 SELECT * FROM lookup_flavours;
