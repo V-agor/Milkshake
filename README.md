@@ -347,5 +347,60 @@ SELECT * FROM restaurants;
 SELECT * FROM config;
 
 
-Phase 2: Backend
+Phase 2: Backend Setup (Node.js + Express + PostgreSQL)
+
+Step 1: First we will create Our backend folder:
+
+<img width="1113" height="619" alt="Screenshot (1116)" src="https://github.com/user-attachments/assets/229532f1-6f34-4f09-846b-0ebcedc169e1" />
+
+This creates a backend folder contain the node.json file
+
+Step 2:Next we will install all required libraries
+
+The packages will do the following:
+
+Package 	    Purpose
+
+express	        Web server framework
+
+pg	            PostgreSQL client
+
+bcrypt	        Password hashing
+
+jsonwebtoken	Login authentication token
+
+dotenv	       Load environment variables
+
+cors	       Allow frontend to talk to backend
+
+nodemailer	   Send email receipts
+
+The following is the structure we will emulate:
+
+milkshake-backend/
+
+  app.js
+  
+  config/
+  
+    db.js
+    
+  routes/
+  
+    authRoutes.js
+    
+    lookupRoutes.js
+    
+  controllers/
+  
+    authController.js
+    
+    lookupController.js
+    
+  models/
+  
+    authModel.js
+    
+    lookupModel.js
+    
 
