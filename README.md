@@ -422,14 +422,34 @@ milkshake-backend/
     
 Our code will do the following:
 
-db.j s- this code connects our backend to the databbase
+db.js- this code connects our backend to the databbase
+
+<img width="1006" height="641" alt="Screenshot (1127)" src="https://github.com/user-attachments/assets/676b134a-8dea-401a-91cc-140f4df304be" />
+
 
 app.js - this is the  entry point of our backend
 
+<img width="1339" height="664" alt="Screenshot (1128)" src="https://github.com/user-attachments/assets/7b6b30d0-aaa7-4b9b-8dcb-335f5a463a93" />
+
+
 authRoute.js, authController.js, authModel.js - these are they first routes, their code allow the signup, login, hashing and JWT authentication to function
+
+<img width="903" height="508" alt="Screenshot (1129)" src="https://github.com/user-attachments/assets/1b33f4c7-db31-4f31-83c3-64add45743ee" />
+
+
+<img width="944" height="516" alt="Screenshot (1130)" src="https://github.com/user-attachments/assets/5692de26-b046-48e1-833b-365ce92d78d4" />
+
+
+<img width="1089" height="1022" alt="Screenshot (1131)" src="https://github.com/user-attachments/assets/2127a53a-ca00-4b58-9cdc-768ee20804af" />
 
 
 lookuoRoute.js, lookupController.js, lockupModel.js - our lookup end points
+
+<img width="964" height="529" alt="Screenshot (1132)" src="https://github.com/user-attachments/assets/a6962e76-270d-44de-bb66-21f52ab6b811" />
+
+<img width="850" height="506" alt="Screenshot (1133)" src="https://github.com/user-attachments/assets/a3ef881e-dbe0-4690-800b-993adcfd99d5" />
+
+<img width="1069" height="506" alt="Screenshot (1134)" src="https://github.com/user-attachments/assets/cbb72e90-a5d4-44e1-b25c-daf038aeaeb0" />
 
 And with this our backend is officially alive
 
