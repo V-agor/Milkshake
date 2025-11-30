@@ -447,9 +447,42 @@ lookuoRoute.js, lookupController.js, lockupModel.js - our lookup end points
 
 <img width="964" height="529" alt="Screenshot (1132)" src="https://github.com/user-attachments/assets/a6962e76-270d-44de-bb66-21f52ab6b811" />
 
+
 <img width="850" height="506" alt="Screenshot (1133)" src="https://github.com/user-attachments/assets/a3ef881e-dbe0-4690-800b-993adcfd99d5" />
 
+
 <img width="1069" height="506" alt="Screenshot (1134)" src="https://github.com/user-attachments/assets/cbb72e90-a5d4-44e1-b25c-daf038aeaeb0" />
+
+Routes:
+
+Define “what URL does what”
+
+Never contain business logic
+
+Just point to controller functions
+
+
+
+Controllers:
+
+Receive request data
+
+Call model functions
+
+Send back response
+
+Handle errors
+
+Models:
+
+Run SQL queries
+
+Calculate values
+
+Apply rules
+
+Save data into database
+
 
 And with this our backend is officially alive
 
