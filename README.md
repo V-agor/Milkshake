@@ -2,19 +2,29 @@
 
 This is a real-world software project that combines web development(back and front end), database design and reporting to deliver a deployeble solution.
 
+The system is to be built on industry standard architecture, that is Frontend <--> Backend API <--> Database.
+
+The frontend is the interface that the user interacts with and it be compiled with html, it sends data to the backend with https requests.
+
+The backend handles, business logic, authentication, price calculations, payments, talking to the database e.tc
+
+The Database stores all permanent information.
+
 Project Objectives:
 
 1.Database Design
-2.
-3.Deploy Solution
+
+2.Backend
+
+3.Frontend
 
 Technologies used:
 
-1.PostgresSQL
+1.PostgresSQL(pgAdmin)
 
 2.QuickDBD
 
-3.
+3.VScode
 
 Phase 1: Database Design
 
@@ -23,7 +33,9 @@ PostgresSQL is being used because it is powerful and is industry standard, it al
 <img width="735" height="591" alt="Screenshot (1109)" src="https://github.com/user-attachments/assets/083eeed6-6e2d-47c9-8ac7-a90553e20f34" />
 
 
-Below is a schema created in quickDBD:
+Below is a schema created in quickDBD: This will guide ho i develop my schema in postgresSQL.
+
+The main challenge here was developing a schema that adequately refelected all business needs, an objecctive I'm still not sure I achieved.
 
 <img width="1920" height="919" alt="Screenshot (1112)" src="https://github.com/user-attachments/assets/03ed5bc1-07d7-41bf-a64a-9b5aadde4a8a" />
 
@@ -51,7 +63,8 @@ Audit logs: required to track:
 
 who changed VAT, who added a new flavour, who edited order values
 
-**Lookup Tables
+Lookup Tables
+
 Our next task is to automate lookup data insertion
 
 Lookup tables contain fixed values that  users cannot modify, these are the values that appear on dropdowns.
