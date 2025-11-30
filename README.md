@@ -403,5 +403,17 @@ milkshake-backend/
     
     lookupModel.js
     
+The node js file will be populated with code,our objective is to--- so our code will do the following:
+
+db.j s- this code connects our backend to the databbase
+
+app.js - this is the  entry point of our backend
+
+authRoute.js, authController.js, authModel.js - these are they first routes, their code allow the signup, login, hashing and JWT authentication to function
+
+
+lookuoRoute.js, lookupController.js, lockupModel.js - our lookup end points
+
+And with this our backend is officially alive
 
 Phase 3:
