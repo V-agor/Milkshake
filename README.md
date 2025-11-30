@@ -1,6 +1,6 @@
 # Order Milkshake Pickup System
 
-This is a real-world software project that combines web development(back and front end), database design and reporting to deliver a deployeble solution.
+This is a real-world software project that combines web development(back and front end) and database design to deliver a deployable solution.
 
 The system is to be built on industry standard architecture, that is Frontend <--> Backend API <--> Database.
 
