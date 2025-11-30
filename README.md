@@ -18,6 +18,8 @@ Project Objectives:
 
 3.Frontend
 
+
+
 Technologies used:
 
 1.PostgresSQL(pgAdmin)
@@ -25,6 +27,8 @@ Technologies used:
 2.QuickDBD
 
 3.VScode
+
+
 
 Phase 1: Database Design
 
@@ -47,23 +51,17 @@ Note: A server environment needs to be setup in pgadmin before hand before scrip
 
 Lets us explore the tables in depth:
 
-Users:Stores client and manager accounts.
+Users: Stores client and manager accounts.
 
-Restaurants:Required because the user must select where they pick up their order.
+Restaurants: Required because the user must select where they pick up their order.
 
-Lookup tables:these store values that managers can modify:
-flavour, toppings, consistency
+Lookup tables: these store values that managers can modify(flavour, toppings, consistency)
 
-Config table:Stores dynamic system rules:
-max drinks (default 10), VAT %, tiered discount rules
+Config table: Stores dynamic system rules
 
-Orders and drinks:
+Orders and drinks: stores orders and respective drinks
 
-Audit logs: required to track:
-
-who changed VAT, who added a new flavour, who edited order values
-
-Lookup Tables
+Audit logs: required to track system changes(who changed VAT, who added a new flavour, who edited order values)
 
 Our next task is to automate lookup data insertion
 
@@ -75,7 +73,9 @@ I wwill share my full SQL so as to discuss some issues i cam across and how i re
 
 -- ===========================================
 
--- DROP ALL TABLES (reset database) allows database to reset each time 
+-- DROP ALL TABLES (reset database) allows database to reset each time, i had first created the tables but i also needed to populate them this however can not be done unless the tables a reset each time the scripts is run.
+
+The drop down alows for the tables to be reset and for the tables to be populated
 
 -- ===========================================
 
@@ -360,7 +360,11 @@ SELECT * FROM restaurants;
 SELECT * FROM config;
 
 
+
+
 Phase 2: Backend Setup (Node.js + Express + PostgreSQL)
+
+This is the part i struggled with the most, my limited programming background was refelcted here(I am a Data Science Major). It took time to not only undeerstand concepts but also implement them
 
 Step 1: First we will create Our backend folder:
 
@@ -388,7 +392,7 @@ cors	       Allow frontend to talk to backend
 
 nodemailer	   Send email receipts
 
-The following is the structure we will emulate:
+The following is the structure we will emulate: the structure splits the backend into 3
 
 milkshake-backend/
 
@@ -416,7 +420,7 @@ milkshake-backend/
     
     lookupModel.js
     
-The node js file will be populated with code,our objective is to--- so our code will do the following:
+Our code will do the following:
 
 db.j s- this code connects our backend to the databbase
 
@@ -428,5 +432,6 @@ authRoute.js, authController.js, authModel.js - these are they first routes, the
 lookuoRoute.js, lookupController.js, lockupModel.js - our lookup end points
 
 And with this our backend is officially alive
+
 
 Phase 3:
